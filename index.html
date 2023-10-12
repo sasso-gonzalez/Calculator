@@ -4,41 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <style src ="style.css"></style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <table>
-        <!-- *NOTE: HAVE TO MAKE BUTTONS AS INPUT TYPE!!!! for being an input of a screen as well as css wont let me touch them - serena... -->
-        <tr>
-            <td><button class="button">C</button></td>
-            <td><button class="button">⌫</button></td>
-            <td><button class="button"></button></td>
-            <td><button class="button"></button></td>
-
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" onclick="" value="⌫" class="backspace"></td>
         </tr>
         <tr>
-            <td><button class="button">7</button></td>
-            <td><button class="button">8</button></td>
-            <td><button class="button">9</button></td>
-            <td><button class="button">/</button></td>
+            <td><input type="button" onclick="" value="7"></td>
+            <td><input type="button" onclick="" value="8"></td>
+            <td><input type="button" onclick="" value="9"></td>
+            <td><input type="button" onclick="" value="/"></td>
         </tr>
         <tr>
-            <td><button class="button">4</button></td>
-            <td><button class="button">5</button></td>
-            <td><button class="button">6</button></td>
-            <td><button class="button">x</button></td>
+            <td><input type="button" onclick="" value="4"></td>
+            <td><input type="button" onclick="" value="5"></td>
+            <td><input type="button" onclick="" value="6"></td>
+            <td><input type="button" onclick="" value="x"></td>
         </tr>
         <tr>
-            <td><button class="button">1</button></td>
-            <td><button class="button">2</button></td>
-            <td><button class="button">3</button></td>
-            <td><button class="button">+</button></td>
+            <td><input type="button" onclick="" value="1"></td>
+            <td><input type="button" onclick="" value="2"></td>
+            <td><input type="button" onclick="" value="3"></td>
+            <td><input type="button" onclick="" value="+"></td>
             </tr>
         <tr>
-            <td><button class="button">AC</button></td>
-            <td><button class="button">0</button></td>
-            <td><button class="button">.</button></td>
-            <td><button class="button">=</button></td>
+            <td><input type="button" onclick="" value="C"></td>
+            <td><input type="button" onclick="" value="0"></td>
+            <td><input type="button" onclick="" value="."></td>
+            <td><input type="button" onclick="" value="="></td>
         </tr>
     </table>
     <script src = "home.js"></script>
