@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <style src ="style.css"></style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <table>
-        <!-- *NOTE: HAVE TO MAKE BUTTONS AS INPUT TYPE!!!! for being an input of a screen as well as css wont let me touch them - serena... -->
-        <tr>
-            <td><input type="button" onclick="" value="⌫"></button></td>
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" onclick="" value="⌫" class="backspace"></td>
         </tr>
         <tr>
             <td><input type="button" onclick="" value="7"></button></td>
@@ -19,10 +18,10 @@
             <td><input type="button" onclick="" value="/"></button></td>
         </tr>
         <tr>
-            <td><input type="button" onclick="" value="4"></button></td>
-            <td><input type="button" onclick="" value="5"></button></td>
-            <td><input type="button" onclick="" value="6"></button></td>
-            <td><input type="button" onclick="" value="x"></button></td>
+            <td><input type="button" onclick="" value="4"></td>
+            <td><input type="button" onclick="" value="5"></td>
+            <td><input type="button" onclick="" value="6"></td>
+            <td><input type="button" onclick="" value="x"></td>
         </tr>
         <tr>
             <td><input type="button" onclick="" value="1"></button></td>

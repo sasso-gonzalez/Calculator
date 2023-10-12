@@ -1,9 +1,11 @@
 table
 {
     border: 2px black
+}
 
-}
-.button
+.backspace
 {
-    border: none
+    background-color: brown;
+    color: blanchedalmond;
 }
+
