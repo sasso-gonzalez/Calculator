@@ -9,4 +9,25 @@
     color: blanchedalmond;
 }
 
-body{}
+div{
+    background-color: blanchedalmond;
+}
+
+.button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight:normal;
+}
+
+body {
+    padding:0;
+    margin:0;
+    background: linear-gradient(to right, #b67a91, #96fcc0)
+}
+
+.calculator-2 {
+    display:grid;
+    justify-content:center;
+    align-content: center;
+    min-height: 100vh;
+    border-radius: 10px;
+}
