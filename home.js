@@ -14,7 +14,7 @@ function calculate(){
     // x = document.getElementById("result").value
     // let operation = x.value    //what i was working on to actually calculate problems -serena
 
-    appendNumber(number){
+function appendNumber(number){
         if (value === '.' && value.includes('.')) return;//Won't allow multiple decimals
     }
 
