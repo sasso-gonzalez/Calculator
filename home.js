@@ -11,11 +11,7 @@
 
 // }
 function calculate(){
-
-
-    appendNumber(number){
-        if (value === '.' && value.includes('.')) return;//Won't allow multiple decimals
-    }
+    if (value === '.' && value.includes('.')) return;//Won't allow multiple decimals
 
     if (this.value === '') return
     if (this.value !== ''){
