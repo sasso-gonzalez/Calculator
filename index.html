@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="calculator-2">
         <table>
-                <td colspan="3"><input type="text" id="result"></td>
-                <td><input type="button" onclick="back()" value="⌫" class="backspace"></td>
-            </tr>
+            <div>
+            <td colspan="3"><input type="text" id="result"></td>
+            </div>
+            <td><input type="button" onclick="back()" value="⌫" class="backspace"></td>
             <tr>
                 <td><input type="button" onclick="result.value += 7" value="7"></button></td>
                 <td><input type="button" onclick="result.value += 8" value="8"></button></td>
@@ -29,10 +30,10 @@
                 <td><input type="button" onclick="result.value += 2" value="2"></button></td>
                 <td><input type="button" onclick="result.value += 3" value="3"></button></td>
                 <td><input type="button" onclick="result.value += '+'" value="+"></button></td>
-                </tr>
+            </tr>
             <tr>
-                <td><input type="button" onclick="clear()" value="C"></button></td>
-                <td><input type="button" onclick="result.value += 7" value="0"></button></td>
+                <td><input type="button" value="C" onclick="result.value = ``"></button></td>
+                <td><input type="button" onclick="result.value += 0" value="0"></button></td>
                 <td><input type="button" onclick="result.value += '.'" value="."></button></td>
                 <td><input type="button" onclick="calculate()" value="="></button></td>
             </tr>
