@@ -12,6 +12,15 @@
 // }
 function calculate(){
 
+
+    appendNumber(number){
+        if (value === '.' && value.includes('.')) return;//Won't allow multiple decimals
+    }
+
+    if (this.value === '') return
+    if (this.value !== ''){
+        this.compute()//If the problem need to be done with multiple numbers it will add them and provide the answer while calculating
+    }
 }
 
 function clear(){
