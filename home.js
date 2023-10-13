@@ -1,12 +1,3 @@
-// function (){
-//     if (text === '.' && value.includes('.')) return;//Won't allow multiple decimals
-//     if (this.value === '') return
-//     if (this.value !== ''){
-//         this.eval()//If the problem need to be done with multiple numbers it will add them and provide the answer while calculating
-//     }
-//   }
-// }
-
 function calculate (){
     const result = document.getElementById('result')
     try {
