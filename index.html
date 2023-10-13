@@ -7,34 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div id="table">
         <table>
-                <td colspan="3"><input type="text" id="result"></td>
-                <td><input type="button" onclick="back()" value="⌫" class="backspace"></td>
+            <tr>
+                <td colspan="3"><input id="result" type="text" value=""></td>
+                <td><input type="button" value="C" onclick="result.value = ``"></button></td>
             </tr>
             <tr>
-                <td><input type="button" onclick="result.value += 7" value="7"></button></td>
-                <td><input type="button" onclick="result.value += 8" value="8"></button></td>
-                <td><input type="button" onclick="result.value += 9" value="9"></button></td>
-                <td><input type="button" onclick="result.value += '/'" value="/"></button></td>
+                <td><input type="button" value="7" onclick="result.value += 7"></button></td>
+                <td><input type="button" value="8" onclick="result.value += 8"></button></td>
+                <td><input type="button" value="9" onclick="result.value += 9"></button></td>
+                <td><input type="button" value="/" onclick="result.value += '/'"></button></td>
             </tr>
             <tr>
-                <td><input type="button" onclick="result.value += 4" value="4"></td>
-                <td><input type="button" onclick="result.value += 5" value="5"></td>
-                <td><input type="button" onclick="result.value += 6" value="6"></td>
-                <td><input type="button" onclick="result.value += '*'" value="x"></td>
+                <td><input type="button" value="4" onclick="result.value += 4"></td>
+                <td><input type="button" value="5" onclick="result.value += 5"></td>
+                <td><input type="button" value="6" onclick="result.value += 6"></td>
+                <td><input type="button" value="x" onclick="result.value += '*'"></td>
             </tr>
             <tr>
-                <td><input type="button" onclick="result.value += 1" value="1"></button></td>
-                <td><input type="button" onclick="result.value += 2" value="2"></button></td>
-                <td><input type="button" onclick="result.value += 3" value="3"></button></td>
-                <td><input type="button" onclick="result.value += '+'" value="+"></button></td>
+                <td><input type="button" value="1" onclick="result.value += 1"></button></td>
+                <td><input type="button" value="2" onclick="result.value += 2"></button></td>
+                <td><input type="button" value="3" onclick="result.value += 3"></button></td>
+                <td><input type="button" value="+" onclick="result.value += '+'"></button></td>
                 </tr>
             <tr>
-                <td><input type="button" onclick="clear()" value="C"></button></td>
-                <td><input type="button" onclick="result.value += 7" value="0"></button></td>
-                <td><input type="button" onclick="result.value += '.'" value="."></button></td>
-                <td><input type="button" onclick="calculate()" value="="></button></td>
+                <td><input type="button" onclick="back()" value="⌫" class="backspace"></td>
+                <td><input type="button" value="0" onclick="result.value += 7"></button></td>
+                <td><input type="button" value="." onclick="result.value += '.'"></button></td>
+                <td><input type="button" value="=" onclick="calculate()"></button></td>
             </tr>
         </table>
     </div>
