@@ -1,21 +1,31 @@
-/* table
-{
-    border: 2px black
-} */
-
-.backspace
-{
+.backspace, .clear, .equals{
     background-color: brown;
-    color: blanchedalmond;
 }
-
-div{
+h1{
     background-color: blanchedalmond;
+    padding: 10px;
+    border-width: 4px; 
+    border-style: ridge;
+    
+}
+table{
+    background-color: blanchedalmond;
+    padding: 30px;
+    align-items: normal;
+    border-width: 4px;
+    border-style: ridge;
 }
 
-.button {
+input{
+    color: blanchedalmond;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     font-weight:normal;
+    width: 50px;
+    padding: 10px;
+    background-color: #b67a91;
+}
+#result{
+    width: auto;
 }
 
 body {
